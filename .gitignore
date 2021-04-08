@@ -1,5 +1,5 @@
 #Intellij
-.idea/
+/.idea/
 *.iml
 *.iws
  
@@ -9,3 +9,5 @@
 # Maven
 log/
 target/
+
+/allure-results/
