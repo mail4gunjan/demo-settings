@@ -1,13 +1,15 @@
 package com.quinyx.settings;
 
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
 public class SkillsTest {
-Skills skills;
-    @BeforeMethod
+
+    Skills skills;
+
+    @BeforeClass
     public void setUp() {
         skills = new Skills();
     }
