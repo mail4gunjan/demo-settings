@@ -27,4 +27,11 @@ public class AgreementTemplateTest {
         String actualResult = agreementTemplate.UpdateAgreement();
         assertEquals(actualResult,expectedResult);
     }
+
+    @Test
+    public void testDeleteAgreement() {
+        String expectedResult = "Delete Agreement";
+        String actualResult = agreementTemplate.DeleteAgreement();
+        assertEquals(actualResult,expectedResult);
+    }
 }
