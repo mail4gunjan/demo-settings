@@ -1,5 +1,6 @@
 package com.quinyx.settings;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -33,5 +34,16 @@ public class SkillsTest {
         String expectedResult = "Edit Skill";
         String actualResult = skills.editSkill();
         assertEquals(actualResult,expectedResult);
+    }
+
+    @AfterMethod
+    public void tearDown() {
+    }
+
+    @Test
+    public void testEditSkillCategory() {String expectedResult = "Edit SkillsCategory";
+        String actualResult = skills.editSkillCategory();
+        assertEquals(actualResult,expectedResult);
+
     }
 }
