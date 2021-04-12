@@ -11,4 +11,7 @@ public class Skills {
     public String editSkill(){
         return "Edit Skill";
     }
+    public String editSkillCategory(){
+        return "Edit category";
+    }
 }
